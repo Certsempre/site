@@ -1,0 +1,129 @@
+:root{
+    --font-family: "Share Tech", sans-serif;
+
+    --color-blue-1: #011C40
+    --color-blue-2: #011126
+    --color-blue-3: #025373
+    --color-blue-4: #1C8DA6
+    --color-blue-5: #2CB1BF
+
+    --color-gray-0: #f9f9f9;
+    --color-gray-1: #e0e0e0;
+    --color-gray-2: #c7c7c7;
+    --color-gray-3: #aeaeae;
+    --color-gray-4: #959595;
+    --color-gray-5: #7d7d7d;
+    --color-gray-6: #646464;
+    --color-gray-7: #4b4b4b;
+    --color-gray-8: #323232;
+    --color-gray-9: #191919;
+
+    --color-verde-1: #BEE45D;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-size: 1.6rem;
+font-family: var(--font-family);
+background: var(--color-gray-9);
+color: var(--color-gray-1);
+}
+
+header {
+    background-color: var(--color-gray-9);
+    padding: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: var(--font-family);
+}
+
+.main-pagina-login{
+    margin: 0 auto; 
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.secao-principal{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-gray-7);
+    border-radius: 30px;
+}
+
+.logo-certsempre{
+    width: 80%;
+    padding: 30px;
+}
+
+.titulo-login{   
+    padding-bottom: 30px;
+    font-size: 450px;
+}
+
+
+.conteudo-principal-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.input-login {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-login::placeholder {
+    color: #aaa;
+}
+
+.input-login:focus {
+    border-color: var(--color-verde-1);
+}
+
+.entrar{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.botao-entrar{
+    text-decoration: none;
+    background-color: var(--color-verde-1);
+    border-radius: 20px;
+    width: 6rem;
+    color: var(--color-gray-9);
+}
+
+.botao-cadastrar{
+    text-decoration: none;
+    background-color: var(--color-verde-1);
+    border-radius: 20px;
+    width: 7rem;
+    color: var(--color-gray-9);
+}
+  
